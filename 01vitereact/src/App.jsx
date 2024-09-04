@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <Component />      // we can return only one HTML content      
-      <h2>vite react app</h2>
+      <h2>vite react app </h2>    
     </>
     
   )
