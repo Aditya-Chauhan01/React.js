@@ -6,7 +6,7 @@ function App() {
   const [charAllowed, setChar] = useState(false)
   const [password, setPassword] = useState("")
 
-  const passwordRef = useRef(null)
+  const passwordRef = useRef(null)  
 
   // useCallback(memoization) hook( function, dependencies )
   const passwordGenerator = useCallback(() => {

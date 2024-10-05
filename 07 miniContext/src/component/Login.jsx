@@ -5,7 +5,8 @@ function Login() {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
 
-    const {setUser} = useContext(UserContext)
+    const {setUser} = useContext(UserContext)   /* useContext is a hook that allows you to consume the context value within a component,
+    here Login fun. consumes the setUser fun from the userContext */
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -19,7 +20,7 @@ function Login() {
         onChange={(e) => setUsername(e.target.value) }
         placeholder='username'  />
         {" "}
-        <input type='text' 
+        <input type='password' 
         value={password}
         onChange={(e) => setPassword(e.target.value) }
         placeholder='password'  />

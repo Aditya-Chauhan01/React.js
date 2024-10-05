@@ -10,6 +10,7 @@ import Contact from './components/contact/Contact.jsx'
 import User from './components/user/User.jsx'
 import GitHub, { githubInfoLoader } from './components/git hub/GitHub.jsx'
 
+// we can create like this
 // const router = createBrowserRouter([
 //   {
 //     path: "/",  // top level element

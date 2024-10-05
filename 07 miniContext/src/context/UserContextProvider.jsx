@@ -4,7 +4,7 @@ import UserContext from "./UserContext";
 const UserContextProvider = ({children}) => {
     const [user, setUser] = React.useState(null)
     return(
-        <UserContext.Provider value={{user, setUser}}>
+        <UserContext.Provider value={{user, setUser}}>     {/*  The "provider" component allows any component within its child hierarchy to access the values or functions it provides.*/}
         {children}
         </UserContext.Provider>
     )
