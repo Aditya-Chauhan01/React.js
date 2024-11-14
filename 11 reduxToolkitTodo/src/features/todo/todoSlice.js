@@ -34,8 +34,8 @@ export const todoSlice = createSlice({
     }
 })
 
-// individually export the reducers ye component mein kaam aayenge
-export const {addTodo, removeTodo} = todoSlice.actions      
+// individually export the reducers ye kisi particular component mein use honge
+export const {addTodo, removeTodo} = todoSlice.actions      // all functionality which inside the reducers that is actions   
 
 // store ko bhi reducers ki awarness honi chaheiye
 export default todoSlice.reducer
